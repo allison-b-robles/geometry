@@ -46,7 +46,7 @@ public class Geometry {
                 int base = data.nextInt();
                 System.out.println("Enter the Height: ");
                 int height = data.nextInt();
-                area = base * height;
+                area = base * height * .5;
                 System.out.println("The Area of the Triangle is "+area);
                 break;
             case 4:
